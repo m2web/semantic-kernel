@@ -162,7 +162,7 @@ weaviate = [
 
 [dependency-groups]
 dev = [
-    "pre-commit ~= 3.7",
+    "pre-commit >= 3.7,< 5.0",
     "ipykernel ~= 6.29",
     "nbconvert ~= 7.16",
     "pytest ~= 8.2",
