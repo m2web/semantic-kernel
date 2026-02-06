@@ -1,12 +1,11 @@
 # Semantic Kernel
 
-**Build intelligent AI agents and multi-agent systems with this enterprise-ready orchestration framework**
+Build intelligent AI agents and multi-agent systems with this enterprise-ready orchestration framework
 
 [![License: MIT](https://img.shields.io/github/license/microsoft/semantic-kernel)](https://github.com/microsoft/semantic-kernel/blob/main/LICENSE)
 [![Python package](https://img.shields.io/pypi/v/semantic-kernel)](https://pypi.org/project/semantic-kernel/)
 [![Nuget package](https://img.shields.io/nuget/vpre/Microsoft.SemanticKernel)](https://www.nuget.org/packages/Microsoft.SemanticKernel/)
 [![Discord](https://img.shields.io/discord/1063152441819942922?label=Discord&logo=discord&logoColor=white&color=d82679)](https://aka.ms/SKDiscord)
-
 
 ## What is Semantic Kernel?
 
@@ -15,7 +14,7 @@ Semantic Kernel is a model-agnostic SDK that empowers developers to build, orche
 ## System Requirements
 
 - **Python**: 3.10+
-- **.NET**: .NET 10.0+ 
+- **.NET**: .NET 10.0+
 - **Java**: JDK 17+
 - **OS Support**: Windows, macOS, Linux
 
@@ -36,11 +35,13 @@ Semantic Kernel is a model-agnostic SDK that empowers developers to build, orche
 First, set the environment variable for your AI Services:
 
 **Azure OpenAI:**
+
 ```bash
 export AZURE_OPENAI_API_KEY=AAA....
 ```
 
 **or OpenAI directly:**
+
 ```bash
 export OPENAI_API_KEY=sk-...
 ```
@@ -303,8 +304,6 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-
-
 ## Where to Go Next
 
 1. 📖 Try our [Getting Started Guide](https://learn.microsoft.com/en-us/semantic-kernel/get-started/quick-start-guide) or learn about [Building Agents](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/)
@@ -328,7 +327,6 @@ if __name__ == "__main__":
 - Check our [GitHub issues](https://github.com/microsoft/semantic-kernel/issues) for known problems
 - Search the [Discord community](https://aka.ms/SKDiscord) for solutions
 - Include your SDK version and full error messages when asking for help
-
 
 ## Join the community
 

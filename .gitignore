@@ -502,3 +502,10 @@ swa-cli.config.json
 
 # dapr extension files
 **/dapr.yaml
+
+# Virtual environments
+.sk-venv/*
+
+# .env
+.env
+python\semantic_kernel\.env
